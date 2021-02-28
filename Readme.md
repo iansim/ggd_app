@@ -34,7 +34,6 @@ POST /api/household/1 HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
 Cache-Control: no-cache
-Postman-Token: fc06c683-4e52-3f9a-6eaa-6090007acc99
 
 {
 	"name":"Mr Hello",
@@ -51,14 +50,12 @@ Postman-Token: fc06c683-4e52-3f9a-6eaa-6090007acc99
 GET /api/household HTTP/1.1
 Host: localhost:8080
 Cache-Control: no-cache
-Postman-Token: 9c7b6d87-441e-0439-de0f-3eda605f8786
 
 
 ** Show household
 GET /api/household/1 HTTP/1.1
 Host: localhost:8080
 Cache-Control: no-cache
-Postman-Token: 7ed0f2c0-7999-5833-4468-57bda4ce7ad7
 
 
 ** Search for households and recipients of grant disbursement endpoint. 
@@ -86,8 +83,6 @@ Postman-Token: 7ed0f2c0-7999-5833-4468-57bda4ce7ad7
 DELETE /api/household/1 HTTP/1.1
 Host: localhost:8080
 Cache-Control: no-cache
-Postman-Token: 1143d06c-7f46-9ae5-e15d-f660ade66994
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 
 
@@ -95,5 +90,3 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0g
 DELETE /api/household/1/1 HTTP/1.1
 Host: localhost:8080
 Cache-Control: no-cache
-Postman-Token: 1143d06c-7f46-9ae5-e15d-f660ade66994
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
