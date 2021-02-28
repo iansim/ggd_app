@@ -10,7 +10,7 @@
 
 ## Steps to Setup
 
-**1. Create empty Mysql db ggd **
+**1. Create empty Mysql Database ggd **
 
 2. Start Application**
 mvn spring-boot:run
